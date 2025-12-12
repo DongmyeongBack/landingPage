@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>랜딩페이지</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+    
+  </head>
+  <body>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header-logo">
+                호두 소개 페이지
+                <a href="home" aria-label="홈으로 이동">HODU</a>
+            </h1>
+            <nav class="header-nav" aria-label="주 메뉴">
+                <a href="#home" class="header-nav-link">Home</a>
+                <a href="" class="header-nav-link">About</a>
+                <a href="" class="header-nav-link">Support</a>
+                <button class="header-download-btn" aria-label="다운로드">Download</button>
+                <button class="header-menu-btn" aria-label="메뉴 열기"></button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique quasi facere dolores dolorem aperiam quibusdam provident.
+                    </p>
+                    <button class="hero-download-btn">Download</button>
+                </div>
+                <figure class="hero-image">
+                    <img src="./images/box-cat.png" alt="상자를 쓴 고양이">
+                </figure>
+            </div>
+        </section>
+        <section class="feature-01">
+            <div class="feature-01-container">
+                <figure class="feature-01-image">
+                    <img src="./images/blanket-cat.jpg" alt="담요 위의 고양이">
+                </figure>
+                <div class="feature-01-content">
+                    <h2>Lorem Ipsum is simply dummy text of the printing and dummy text</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </section>
+        <section class="feature-02">
+            <div class="feature-02-container">
+                <h2 class="feature-02-title">dummy text of the printing and dummy</h2>
+                <p class="feature-02-description">
+                    Lorem Ipsum is simply <span class="feature-02-highlight">dummy text</span> of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                </p>
+
+                <div class="feature-02-grid">
+                    <figure class="feature-02card">
+                        <img src="images/tower-cat.jpg" alt="고양이 타워의 고양이">
+                    </figure>
+                    <figure class="feature-02card">
+                        <img src="images/back-cat.jpg" alt="고양이 실루엣">
+                    </figure>
+                    <figure class="feature-02card">
+                        <img src="images/bed-cat.jpg" alt="침대의 고양이">
+                    </figure>
+                </div>
+
+                <p class="info-footer-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    Ipsum is simply dummy text of the printing and typesetting industry
+                </p>
+                <button class="info-learn-btn">Learn More</button>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe-container">
+                <h2 class="subscribe-title">Subscribe to our Blog post</h2>
+                <p class="subscribe-description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text
+                </p>
+                <form class="subscribe-form" aria-label="이메일 구독 양식">
+                    <input 
+                        type="email" 
+                        class="subscribe-input" 
+                        placeholder="Enter your e-mail address"
+                        aria-label="이메일 주소 입력"
+                        required
+                    >
+                    <button type="submit" class="subscribe-submit-btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section class="footer-image" aria-label="배경 이미지">
+            <img src="images/footer-cat.jpg" alt="고양이 배경" loading="lazy">
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-logo">HODU</h2>
+            <div class="footer-social" role="list" aria-label="소셜 미디어 링크">
+                <a href="" class="footer-social-link" aria-label="Twitter" role="listitem">T</a>
+                <a href="" class="footer-social-link" aria-label="Instagram" role="listitem">I</a>
+                <a href="" class="footer-social-link" aria-label="Facebook" role="listitem">F</a>
+                <a href="" class="footer-social-link" aria-label="YouTube" role="listitem">Y</a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
