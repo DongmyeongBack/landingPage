@@ -310,7 +310,7 @@ img {
     padding: 50px 60px;
     position: relative;
     top: 80px;       
-    z-index: 10;
+    z-index: 5;
 }
 
 .subscribe-text {
@@ -403,7 +403,6 @@ img {
 
 .footer {
     background-color: var(--text-white);
-    padding: 1rem 0;
 }
 
 .footer-container {
@@ -503,6 +502,7 @@ img {
     z-index: 20;
     box-shadow: 0px 0px 30px 0px #00000033;
     border-radius: 30px;
+    display: none;
 }
 
 .modal-cat-image {
@@ -639,15 +639,13 @@ img {
         font-size: 16px;
     }
 
-
-    .footer-left{ 
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-    }
     
+    .footer-container {
+        margin: 0 20px;
+    }
+
     .footer-logo {
-        width: 10rem;
+        width: 112px;
     }
 
 
@@ -721,13 +719,16 @@ img {
         max-width: 200px;
         font-size: 24px;
     }
-    
-    .footer {
-        padding: 2rem;
+
+    .footer-left{ 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
     }
 
     .footer-container {
-        margin: 0;
+        margin: 30px 20px;
         gap: 5rem;
     }
 
