@@ -105,12 +105,12 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 
 ### 6. 푸터(Footer)
 
-* 소셜 미디어 아이콘 영역
 * 모바일 환경에서 footer-nav를 노출
 
 ### 7. 추가 UI 요소
 
 * 스크롤 탑 버튼 (svg 활용)
+* svg 태그에서 `fill` 속성으로 색 조절
 * 구독 완료 시 노출되는 모달 UI
 
 ---
@@ -129,7 +129,7 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 
 ## 접근성 고려 사항
 
-* 스크린 리더용 `sr-only` 제목 제공
+* 스크린 리더용 `sr-only` 제목 제공 `<h1 class="sr-only">호두(HODU) 소개 랜딩페이지</h1>`
 * 모든 이미지에 `alt` 텍스트 적용
 * 버튼 및 내비게이션에 `aria-label` 사용
 
@@ -149,6 +149,22 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 * JavaScript를 활용한 실제 모달/메뉴 인터랙션 구현
 * 이메일 구독 폼 유효성 검사 추가
 * CSS 변수 기반 다크 모드 지원
+* 이미지를 활용할때 `padding-top` 보다는 `aspect-ratio`방식이 더 최신임
+* `figure` 태그는 필요할때만 사용해야함
+* `ul` 태그를 잘 활용해야함
+```html
+<a href="" class="footer-social-link" aria-label="blog" role="listitem">
+    <img src="./images/blog.svg" alt="블로그 아이콘">
+</a>
+<a href="" class="footer-social-link" aria-label="Instagram" role="listitem">
+    <img src="./images/instagram.svg" alt="인스타그램 아이콘">
+</a>
+<a href="" class="footer-social-link" aria-label="Facebook" role="listitem">
+    <img src="./images/facebook.svg" alt="페이스북 아이콘">
+</a>
+<a href="" class="footer-social-link" aria-label="YouTube" role="listitem">
+    <img src="./images/youtube.svg" alt="유튜브 아이콘">
+```
 
 ---
 
