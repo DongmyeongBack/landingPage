@@ -1,13 +1,13 @@
 # landingPage
 
-고양이 브랜드 **HODU**를 소개하기 위한 반응형 랜딩페이지입니다.
+가상의 고양이 브랜드 **HODU**를 소개하기 위한 반응형 랜딩페이지입니다.
 HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근성을 고려해 구현했습니다.
 
 ---
 
 ## 데모
 
-* GitHub Pages 배포 ([예시](https://dongmyeongback.github.io/landingPage/))
+* GitHub Pages 배포 ([랜딩페이지](https://dongmyeongback.github.io/landingPage/))
 * Desktop / Tablet / Mobile 전 해상도 대응
 
 ---
@@ -124,9 +124,9 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 ```mermaid
 flowchart TD
     Header --> Hero
-    Hero --> Features
-    Features --> Gallery
-    Gallery --> Subscribe
+    Hero --> Feature-01
+    Feature-01 --> Feature-02
+    Feature-02 --> Subscribe
     Subscribe --> Footer
 ```
 
@@ -140,38 +140,6 @@ flowchart LR
     Viewport -->|≤480px| Mobile[모바일 레이아웃]
 ```
 
-### 3. 사용자 인터랙션 흐름
-
-````mermaid
-sequenceDiagram
-    participant User
-    participant Header
-    participant Hero
-    participant Subscribe
-    participant Modal
-
-    User->>Header: 페이지 진입
-    Header-->>User: 네비게이션 노출
-    User->>Hero: 스크롤 / CTA 버튼 클릭
-    Hero-->>Subscribe: 구독 섹션 이동
-    User->>Subscribe: 이메일 입력
-    Subscribe-->>Modal: 구독 완료 처리
-    Modal-->>User: 완료 안내 표시
-```mermaid
-sequenceDiagram
-    participant User
-    participant Page
-
-    User->>Page: 페이지 접속
-    Page-->>User: Hero 섹션 노출
-    User->>Page: Download 버튼 클릭
-    Page-->>User: 구독 섹션 포커스
-    User->>Page: 이메일 입력
-    Page-->>User: 완료 모달 표시
-````
-
-Mermaid를 사용하면 **정적인 HTML/CSS 프로젝트에서도 구조적 사고와 설계 역량을 효과적으로 보여줄 수 있습니다.**
-
 ---
 
 ## 개선 및 확장 아이디어
@@ -184,7 +152,7 @@ Mermaid를 사용하면 **정적인 HTML/CSS 프로젝트에서도 구조적 사
 
 ## 제작자
 
-* 이름: (본인 이름)
+* 이름: 백동명
 * 학습 목적의 개인 프로젝트
 
 ---
