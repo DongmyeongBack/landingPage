@@ -360,7 +360,6 @@ img {
     border: none;
     font-weight: 600;
     font-size: 1rem;
-    transition: background-color 0.3s ease, transform 0.2s ease;
     white-space: nowrap;
 }
 
@@ -742,6 +741,7 @@ img {
 
     .footer-link {
         display: block;
+        white-space: nowrap;
     }
 
 
