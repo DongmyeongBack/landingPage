@@ -333,9 +333,16 @@ img {
     justify-content: center;
 }
 
+.subscribe-mail-icon {
+    position: absolute;
+    left: 18px;
+    width: 20px;
+    height: 20px;
+}
+
 .subscribe-input {
     width: 100%;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem 1rem 3rem;   
     border-radius: 25px;
     border: none;
     font-size: 1rem;
@@ -664,10 +671,15 @@ img {
         gap: 0.75rem;
         align-items: flex-end   ;
     }
-
+    .subscribe-mail-icon {
+        top: 11px;
+        left: 16px;
+        width: 18px;
+        height: 18px;
+    }
     .subscribe-input {
         width: 100%;
-        padding: 1rem 1.25rem;
+        padding: 1rem 1.25rem 1rem 4rem;
     }
 
     .subscribe-submit-btn {
