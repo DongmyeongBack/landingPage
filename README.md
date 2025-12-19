@@ -18,10 +18,10 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
   <tbody>
     <tr>
       <td align="center">
-        <img src="./images/desktop1.png" width="100%" alt="데스크탑 전체 화면 1">
-        <img src="./images/desktop2.png" width="100%" alt="데스크탑 전체 화면 2">
-        <img src="./images/desktop3.png" width="100%" alt="데스크탑 전체 화면 3">
-        <img src="./images/desktop4.png" width="100%" alt="데스크탑 전체 화면 4">
+        <img src="./images/desktop1.png" width="70%" alt="데스크탑 전체 화면 1">
+        <img src="./images/desktop2.png" width="70%" alt="데스크탑 전체 화면 2">
+        <img src="./images/desktop3.png" width="70%" alt="데스크탑 전체 화면 3">
+        <img src="./images/desktop4.png" width="70%" alt="데스크탑 전체 화면 4">
       </td>
       <td align="center">
         <img src="./images/mobile.jpg" width="100%" alt="모바일 전체 화면 ">
