@@ -8,14 +8,12 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 
 ## 미리보기
 
-### Desktop
-![](./images/desktop1.png)
-![](./images/desktop2.png)
-![](./images/desktop3.png)
-![](./images/desktop4.png)
-
-### Mobile
-![](./images/mobile.jpg)
+| Desktop | Mobile |
+|--------|--------|
+| ![](./images/desktop1.png) | ![](./images/mobile1.png) |
+| ![](./images/desktop2.png) |  |
+| ![](./images/desktop3.png) |  |
+| ![](./images/desktop4.png) |  |
 
 ---
 
