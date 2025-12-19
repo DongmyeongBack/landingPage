@@ -6,6 +6,14 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 * GitHub Pages 배포 ([랜딩페이지](https://dongmyeongback.github.io/landingPage/))
 * Desktop / Tablet / Mobile 전 해상도 대응
 
+## 미리보기
+
+| Desktop | Mobile |
+|--------|--------|
+| ![](./images/desktop１.png) | ![](./images/mobile.jpg) |
+| ![](./images/desktop２.png) |
+| ![](./images/desktop３.png) |
+| ![](./images/desktop４.png) |
 ---
 
 ## 프로젝트 개요
@@ -58,7 +66,6 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 
 * Sticky 적용
 * 데스크톱 / 모바일 환경에 따라 상이한 네비게이션
-* 모바일 해상도에서 햄버거 메뉴를 통해 공간 확보
 
 ### 2. 히어로 섹션(Hero)
 
