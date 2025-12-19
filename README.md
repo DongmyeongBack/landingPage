@@ -8,12 +8,15 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 
 ## 미리보기
 
-| Desktop | Mobile |
-|--------|--------|
-| ![](./images/desktop１.png) | ![](./images/mobile.jpg) |
-| ![](./images/desktop２.png) |
-| ![](./images/desktop３.png) |
-| ![](./images/desktop４.png) |
+### Desktop
+![](./images/desktop1.png)
+![](./images/desktop2.png)
+![](./images/desktop3.png)
+![](./images/desktop4.png)
+
+### Mobile
+![](./images/mobile.jpg)
+
 ---
 
 ## 프로젝트 개요
@@ -127,33 +130,6 @@ HTML과 CSS만을 사용하여 시맨틱 구조, 반응형 레이아웃, 접근�
 
 ---
 
-## 구조 다이어그램 (Mermaid)
-
-본 프로젝트의 구조와 사용자 흐름을 명확히 보여주기 위해 **Mermaid 다이어그램**을 활용할 수 있습니다.
-
-### 1. 전체 페이지 구조
-
-```mermaid
-flowchart TD
-    Header --> Hero
-    Hero --> Feature-01
-    Feature-01 --> Feature-02
-    Feature-02 --> Subscribe
-    Subscribe --> Footer
-```
-
-### 2. 반응형 레이아웃 분기
-
-```mermaid
-flowchart LR
-    Viewport{화면 크기}
-    Viewport -->|≥1200px| Desktop[데스크톱 레이아웃]
-    Viewport -->|768~1024px| Tablet[태블릿 레이아웃]
-    Viewport -->|≤480px| Mobile[모바일 레이아웃]
-```
-
----
-
 ## 개선 및 확장 아이디어
 
 * JavaScript를 활용한 실제 모달/메뉴 인터랙션 구현
@@ -166,6 +142,10 @@ flowchart LR
 
 * 이름: 백동명
 * 학습 목적의 개인 프로젝트
+
+## 개발 기간
+
+* 개발 기간: 25.12.12 ~ 25.12.19
 
 ---
 
